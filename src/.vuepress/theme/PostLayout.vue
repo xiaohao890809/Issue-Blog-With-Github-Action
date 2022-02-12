@@ -22,23 +22,20 @@
 
     <Vssue title="Vssue Demo" :issueId="$frontmatter.id" />
 
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-  <div id="gitalk-container"></div>     
-  <script type="text/javascript">
+    <div id="gitalk-container"></div>     
+    <script type="text/javascript">
     var gitalk = new Gitalk({
-
     // gitalk的主要参数
         clientID: '0d936e21f37435f24ee5',
         clientSecret: 'e71120fb7c2ce02bd3567f8e38dce3eaf480cfc0',
-        repo: 'https://xiaohao890809.github.io',
+        repo: 'comments_of_blog',
         owner: 'xiaohao890809',
         admin: ['xiaohao890809'],
         id:window.location.pathname,
 
     });
     gitalk.render('gitalk-container');
-</script> 
+    </script> 
 
     <Vssue title="Vssue Demo" :issueId="$frontmatter.id" />
 

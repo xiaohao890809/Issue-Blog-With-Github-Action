@@ -38,7 +38,7 @@ module.exports = {
       "script",
       {
         charset: "utf-8",
-        src: "https://unpkg.com/gitalk/dist/gitalk.min.js",
+        src: "https://unpkg.com/gitalk@latest/dist/gitalk.min.js",
         async: true
       }
     ],
