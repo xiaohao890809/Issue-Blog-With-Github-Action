@@ -246,7 +246,7 @@ img
     display flex
     justify-content center
     align-content center
-    margin 30px 0 60px 0
+    margin 30px 0 30px 0
     font-fang-song()
 
     .author
