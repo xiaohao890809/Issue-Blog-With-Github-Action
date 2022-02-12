@@ -49,7 +49,7 @@ module.exports = {
       directories: [
         {
           id: 'post',
-          dirname: '_posts',
+          dirname: 'posts',
           path: '/',
           pagination: {
             lengthPerPage: 1,
