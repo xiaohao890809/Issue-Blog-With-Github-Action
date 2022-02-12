@@ -24,21 +24,6 @@
 
     <Vssue title="Vssue Demo" :issueId="$frontmatter.id" />
     <div id="gitalk-container"></div>
-
-    mounted() {
-  const gitalk = new Gitalk({
-    clientID: '0d936e21f37435f24ee5',
-    clientSecret: 'e71120fb7c2ce02bd3567f8e38dce3eaf480cfc0',
-    repo: 'https://xiaohao890809.github.io',
-    owner: 'xiaohao890809',
-    admin: 'xiaohao890809',
-    id: location.pathname,      // 如果要每篇文章都使用独立评论 需要改为 location.hash
-                                // 或者md5(location.hash)注意md5包需要单独引入
-    distractionFreeMode: false  // 无干扰模式
-  });
-  gitalk.render("gitalk-container");
-}
-
     <Vssue title="Vssue Demo" :issueId="$frontmatter.id" />
   </div>
   <Footer />
