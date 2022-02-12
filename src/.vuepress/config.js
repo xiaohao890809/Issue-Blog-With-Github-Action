@@ -44,7 +44,16 @@ module.exports = {
         platform: "github-v4",
         ...customConfig.vssueConfig
       }
-    ]
+    ],
+    ['@vuepress/blog', {
+      directories: [
+        {
+          id: 'post',
+          dirname: '_posts',
+          path: '/',
+        },
+      ],
+    }]
   ],
   markdown: {
     extendMarkdown: md => {
