@@ -38,18 +38,13 @@ module.exports = {
   // dev config
   host: "0.0.0.0",
   plugins: [
-    ['@vuepress/blog', {
-      directories: [
-        {
-          id: 'post',
-          dirname: '_posts',
-          path: '/',
-         pagination: {
-           lengthPerPage: 1,
-         },
-        },
-      ],
-    }]
+    [
+      "@vssue/vuepress-plugin-vssue",
+      {
+        platform: "github-v4",
+        ...customConfig.vssueConfig
+      }
+    ]
   ],
   markdown: {
     extendMarkdown: md => {
