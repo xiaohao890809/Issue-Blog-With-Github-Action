@@ -1,7 +1,8 @@
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <template>
 <div>
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
   <Header />
   <div class="page post-page">
     <div class="title">
@@ -21,8 +22,8 @@
       <Content />
     </div>
 
+    <Vssue title="Vssue Demo" :issueId="$frontmatter.id" />
     <div id="gitalk-container"></div>
-
 
     <Vssue title="Vssue Demo" :issueId="$frontmatter.id" />
   </div>
