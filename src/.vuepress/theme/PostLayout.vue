@@ -73,7 +73,7 @@ $mainColor = darken(red, 20)
   justify-content center
 
 .post-title
-  margin-top 120px
+  margin-top 80px
   color #333
   font-weight bold
   font-size 30px
