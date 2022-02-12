@@ -20,10 +20,25 @@ module.exports = {
       }
     ],
     [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://unpkg.com/gitalk/dist/gitalk.css"
+      }
+    ],
+    [
       "script",
       {
         charset: "utf-8",
         src: "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",
+        async: true
+      }
+    ],
+    [
+      "script",
+      {
+        charset: "utf-8",
+        src: "https://unpkg.com/gitalk/dist/gitalk.min.js",
         async: true
       }
     ],
