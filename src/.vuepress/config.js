@@ -34,6 +34,11 @@ module.exports = {
     ...customConfig.themeConfig,
     base: customConfig.base
   },
+   // 分页配置
+  pagination: {
+    // 每页文章数量
+    perPage: 1,
+  },
 
   // dev config
   host: "0.0.0.0",
