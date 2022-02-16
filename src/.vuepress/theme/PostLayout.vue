@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6
   font-weight 600
   line-height 1.25
   font-hei()
-  margin-top 50px
+  margin-top 30px
 
   {$contentClass}:not(.custom) > &
     margin-top (0.5rem - $navbarHeight)
